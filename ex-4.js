@@ -12,3 +12,22 @@ const employees = [
 ];
 
 // Start coding here
+Array.isArray(employees) ; 
+console.log(employees) ;
+
+employees.push (
+{
+  name: "Alicia" , 
+  age: 29,
+  hobbies: ["Shopping", "Reading novels"],
+} ,
+{
+  name: "Kody" , 
+  age: 19,
+  hobbies: ["Computer games", "Wakeboard"],
+} 
+) ;
+
+console.log(employees) ;
+
+
